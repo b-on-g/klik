@@ -1,0 +1,10 @@
+{
+	"name": "bog_klik",
+	"short_name": "bog_klik",
+	"description": "",
+	"id": "bog_klik",
+	"start_url": ".",
+	"display": "standalone",
+	"background_color": "#000000",
+	"theme_color": "#000000"
+}
