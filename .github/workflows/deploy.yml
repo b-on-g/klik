@@ -20,6 +20,7 @@ jobs:
             - uses: hyoo-ru/mam_build@master2
               with:
                   package: "bog/klik"
+                  modules: 'app'
 
 
             - uses: hyoo-ru/gh-deploy@v4.4.1
