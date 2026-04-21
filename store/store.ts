@@ -7,7 +7,7 @@ namespace $ {
 	}) {}
 
 	let _players_dict_class: ReturnType<typeof $giper_baza_dict_to<typeof $bog_klik_player>> | null = null
-	export function $bog_klik_players_dict_class() {
+	export function $bog_klik_players_dict_class(): ReturnType<typeof $giper_baza_dict_to<typeof $bog_klik_player>> {
 		if (!_players_dict_class) _players_dict_class = $giper_baza_dict_to($bog_klik_player)
 		return _players_dict_class
 	}
