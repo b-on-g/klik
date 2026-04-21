@@ -1,0 +1,39 @@
+$bog_klik_play $mol_page
+	title @ \Клик
+	store $bog_klik_store
+	auto_click? false
+	tick_ms? 1000
+	per_tick? 1
+	body /
+		<= Start_block $mol_view sub <= start_block /
+			<= Intro $mol_text text @ \
+				\# klik
+				\
+				\Нет активной сессии. Создай новую или открой по ссылке `?land=...`.
+			<= Create $mol_button_major
+				click? <=> create_click? null
+				sub / \Создать сессию
+		<= Game_block $mol_view sub <= game_block /
+			<= Params $mol_list rows /
+				<= Name_field $mol_string
+					hint @ \Имя
+					value? <=> name? \
+				<= Score_row $mol_paragraph
+					title <= score_title \Счёт: 0
+				<= Share_row $mol_paragraph
+					title <= share_title \Ссылка:
+				<= Share_link $mol_string
+					enabled false
+					value <= session_link \
+				<= Tick_row $mol_number
+					hint @ \Мс на тик
+					value? <=> tick_ms? 1000
+				<= Per_tick_row $mol_number
+					hint @ \Кликов за тик
+					value? <=> per_tick? 1
+			<= Click $mol_button_major
+				click? <=> click? null
+				sub / \+1
+			<= Auto $mol_check
+				checked? <=> auto_click? false
+				label / \Автокликер

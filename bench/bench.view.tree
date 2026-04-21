@@ -1,0 +1,25 @@
+$bog_klik_bench $mol_page
+	title @ \Нагрузка
+	store $bog_klik_store
+	bots_count? 10
+	bot_tick_ms? 1000
+	bot_per_tick? 1
+	running? false
+	body /
+		<= Params $mol_list rows /
+			<= Count_field $mol_number
+				hint @ \Количество ботов
+				value? <=> bots_count? 10
+			<= Tick_field $mol_number
+				hint @ \Мс на тик
+				value? <=> bot_tick_ms? 1000
+			<= Per_field $mol_number
+				hint @ \Кликов за тик
+				value? <=> bot_per_tick? 1
+		<= Toggle $mol_check
+			checked? <=> running? false
+			label / \Запустить
+		<= Metrics $mol_list rows /
+			<= Ops $mol_paragraph title <= ops_title \Ops/s: 0
+			<= Writes $mol_paragraph title <= writes_title \Всего записей: 0
+			<= Latency $mol_paragraph title <= latency_title \Лаг аплая, мс: 0

@@ -1,0 +1,13 @@
+$bog_klik_board $mol_page
+	title @ \Лидерборд
+	store $bog_klik_store
+	body /
+		<= Total $mol_paragraph
+			title <= total_title \Игроков: 0
+		<= List $mol_list
+			rows <= rows /
+	Row* $mol_view
+		sub /
+			<= Rank* $mol_view sub / <= rank* \0.
+			<= Name* $mol_view sub / <= player_name* \—
+			<= Score* $mol_view sub / <= player_score* \0
