@@ -1,8 +1,8 @@
 {
-	"name": "bog_klik",
-	"short_name": "bog_klik",
+	"name": "bog_klik_app",
+	"short_name": "bog_klik_app",
 	"description": "",
-	"id": "bog_klik",
+	"id": "bog_klik_app",
 	"start_url": ".",
 	"display": "standalone",
 	"background_color": "#000000",

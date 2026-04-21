@@ -1,0 +1,22 @@
+{
+	"$bog_klik_app_title": "klik",
+	"$bog_klik_bench_Count_field_hint": "Количество ботов",
+	"$bog_klik_bench_Per_field_hint": "Кликов за тик",
+	"$bog_klik_bench_Tick_field_hint": "Мс на тик",
+	"$bog_klik_bench_title": "Нагрузка",
+	"$bog_klik_board_title": "Лидерборд",
+	"$bog_klik_play_Intro_text": "# klik\n\nНет активной сессии. Создай новую или открой по ссылке `?land=...`.",
+	"$bog_klik_play_Name_field_hint": "Имя",
+	"$bog_klik_play_Per_tick_row_hint": "Кликов за тик",
+	"$bog_klik_play_Tick_row_hint": "Мс на тик",
+	"$bog_klik_play_title": "Клик",
+	"$bog_theme_picker_Search_hint": "Just start typing",
+	"$mol_link_source_hint": "Source code",
+	"$mol_search_Clear_hint": "Clear",
+	"$mol_search_hint": "Search...",
+	"$mol_select_filter_hint": "Filter..",
+	"$mol_select_hint": "Pick..",
+	"$mol_select_no_options_message": "No options",
+	"$mol_text_code_Copy_hint": "Copy whole code",
+	"$mol_text_header_Link_hint": "Permalink to this section"
+}
