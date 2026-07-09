@@ -1,0 +1,11 @@
+{
+  "name": "klik-bench-runner",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "run": "node run.mjs"
+  },
+  "dependencies": {
+    "puppeteer": "^23.0.0"
+  }
+}

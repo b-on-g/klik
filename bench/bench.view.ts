@@ -64,7 +64,7 @@ namespace $.$$ {
 		}
 
 		ops_title() {
-			return `Ops/s: ${ this.ops_count() }`
+			return `Записей/с: ${ this.ops_count() }`
 		}
 
 		writes_title() {
@@ -72,7 +72,7 @@ namespace $.$$ {
 		}
 
 		latency_title() {
-			return `Лаг записи, мс: ${ this.latency_ms() }`
+			return `Длительность тика, мс: ${ this.latency_ms() }`
 		}
 
 		override auto() {

@@ -1,0 +1,19 @@
+{
+  "config": {
+    "APP_URL": "http://localhost:9080/bog/klik/app/-/index.html",
+    "BOT_LEVELS": [
+      10
+    ],
+    "BOT_TICK_MS": 1000,
+    "BOT_PER_TICK": 1,
+    "WARMUP_MS": 3000,
+    "SAMPLE_MS": 5000
+  },
+  "sessionLink": "QSWgMHTG_CA34jUxs",
+  "results": [
+    {
+      "n": 10,
+      "error": "Timed out waiting for bog_klik_bench mounted in DOM"
+    }
+  ]
+}

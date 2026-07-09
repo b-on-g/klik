@@ -1,0 +1,62 @@
+{
+  "config": {
+    "APP_URL": "http://localhost:9080/bog/klik/app/-/index.html",
+    "BOT_LEVELS": [
+      10
+    ],
+    "BOT_TICK_MS": 1000,
+    "BOT_PER_TICK": 1,
+    "WARMUP_MS": 2000,
+    "SAMPLE_MS": 3000
+  },
+  "sessionLink": "cH8IMd5j_L5aGJswa",
+  "results": [
+    {
+      "n": 10,
+      "reportedOps": 0,
+      "realOps": 0,
+      "avgLatency": 0,
+      "maxLatency": 0,
+      "writesDelta": 0,
+      "errors": [],
+      "samples": [
+        {
+          "t": 0,
+          "ops": 0,
+          "latency": 0,
+          "writes": 0
+        },
+        {
+          "t": 502,
+          "ops": 0,
+          "latency": 0,
+          "writes": 0
+        },
+        {
+          "t": 1004,
+          "ops": 0,
+          "latency": 0,
+          "writes": 0
+        },
+        {
+          "t": 1506,
+          "ops": 0,
+          "latency": 0,
+          "writes": 0
+        },
+        {
+          "t": 2007,
+          "ops": 0,
+          "latency": 0,
+          "writes": 0
+        },
+        {
+          "t": 2509,
+          "ops": 0,
+          "latency": 0,
+          "writes": 0
+        }
+      ]
+    }
+  ]
+}

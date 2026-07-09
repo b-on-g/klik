@@ -1,0 +1,752 @@
+{
+  "config": {
+    "APP_URL": "http://localhost:9080/bog/klik/app/-/index.html",
+    "BOT_LEVELS": [
+      10,
+      50,
+      100,
+      200,
+      400,
+      800,
+      1600
+    ],
+    "BOT_TICK_MS": 1000,
+    "BOT_PER_TICK": 1,
+    "WARMUP_MS": 5000,
+    "SAMPLE_MS": 10000
+  },
+  "sessionLink": "o9hpNkJO_3Ep7CA6h",
+  "results": [
+    {
+      "n": 10,
+      "reportedOps": 10,
+      "realOps": 11,
+      "avgLatency": 1,
+      "maxLatency": 2,
+      "writesDelta": 110,
+      "errors": [],
+      "samples": [
+        {
+          "t": 1,
+          "ops": 10,
+          "latency": 1,
+          "writes": 50
+        },
+        {
+          "t": 502,
+          "ops": 10,
+          "latency": 2,
+          "writes": 60
+        },
+        {
+          "t": 1006,
+          "ops": 10,
+          "latency": 2,
+          "writes": 70
+        },
+        {
+          "t": 1508,
+          "ops": 10,
+          "latency": 2,
+          "writes": 70
+        },
+        {
+          "t": 2009,
+          "ops": 10,
+          "latency": 2,
+          "writes": 80
+        },
+        {
+          "t": 2511,
+          "ops": 10,
+          "latency": 2,
+          "writes": 80
+        },
+        {
+          "t": 3013,
+          "ops": 10,
+          "latency": 2,
+          "writes": 90
+        },
+        {
+          "t": 3514,
+          "ops": 10,
+          "latency": 2,
+          "writes": 90
+        },
+        {
+          "t": 4014,
+          "ops": 10,
+          "latency": 1,
+          "writes": 100
+        },
+        {
+          "t": 4517,
+          "ops": 10,
+          "latency": 1,
+          "writes": 100
+        },
+        {
+          "t": 5018,
+          "ops": 10,
+          "latency": 1,
+          "writes": 110
+        },
+        {
+          "t": 5521,
+          "ops": 10,
+          "latency": 1,
+          "writes": 110
+        },
+        {
+          "t": 6022,
+          "ops": 10,
+          "latency": 1,
+          "writes": 120
+        },
+        {
+          "t": 6524,
+          "ops": 10,
+          "latency": 1,
+          "writes": 120
+        },
+        {
+          "t": 7026,
+          "ops": 10,
+          "latency": 1,
+          "writes": 130
+        },
+        {
+          "t": 7528,
+          "ops": 10,
+          "latency": 1,
+          "writes": 130
+        },
+        {
+          "t": 8030,
+          "ops": 10,
+          "latency": 1,
+          "writes": 140
+        },
+        {
+          "t": 8533,
+          "ops": 10,
+          "latency": 1,
+          "writes": 140
+        },
+        {
+          "t": 9034,
+          "ops": 10,
+          "latency": 2,
+          "writes": 150
+        },
+        {
+          "t": 9536,
+          "ops": 10,
+          "latency": 2,
+          "writes": 150
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "reportedOps": 50,
+      "realOps": 55,
+      "avgLatency": 5,
+      "maxLatency": 5,
+      "writesDelta": 550,
+      "errors": [],
+      "samples": [
+        {
+          "t": 0,
+          "ops": 50,
+          "latency": 5,
+          "writes": 250
+        },
+        {
+          "t": 502,
+          "ops": 50,
+          "latency": 5,
+          "writes": 300
+        },
+        {
+          "t": 1018,
+          "ops": 50,
+          "latency": 5,
+          "writes": 350
+        },
+        {
+          "t": 1520,
+          "ops": 50,
+          "latency": 5,
+          "writes": 350
+        },
+        {
+          "t": 2028,
+          "ops": 50,
+          "latency": 5,
+          "writes": 400
+        },
+        {
+          "t": 2530,
+          "ops": 50,
+          "latency": 5,
+          "writes": 400
+        },
+        {
+          "t": 3031,
+          "ops": 50,
+          "latency": 5,
+          "writes": 450
+        },
+        {
+          "t": 3533,
+          "ops": 50,
+          "latency": 5,
+          "writes": 450
+        },
+        {
+          "t": 4034,
+          "ops": 50,
+          "latency": 4,
+          "writes": 500
+        },
+        {
+          "t": 4535,
+          "ops": 50,
+          "latency": 4,
+          "writes": 500
+        },
+        {
+          "t": 5035,
+          "ops": 50,
+          "latency": 5,
+          "writes": 550
+        },
+        {
+          "t": 5539,
+          "ops": 50,
+          "latency": 5,
+          "writes": 550
+        },
+        {
+          "t": 6040,
+          "ops": 50,
+          "latency": 5,
+          "writes": 600
+        },
+        {
+          "t": 6542,
+          "ops": 50,
+          "latency": 5,
+          "writes": 600
+        },
+        {
+          "t": 7042,
+          "ops": 50,
+          "latency": 5,
+          "writes": 650
+        },
+        {
+          "t": 7544,
+          "ops": 50,
+          "latency": 5,
+          "writes": 650
+        },
+        {
+          "t": 8044,
+          "ops": 50,
+          "latency": 5,
+          "writes": 700
+        },
+        {
+          "t": 8545,
+          "ops": 50,
+          "latency": 5,
+          "writes": 700
+        },
+        {
+          "t": 9047,
+          "ops": 50,
+          "latency": 4,
+          "writes": 750
+        },
+        {
+          "t": 9549,
+          "ops": 50,
+          "latency": 4,
+          "writes": 750
+        }
+      ]
+    },
+    {
+      "n": 100,
+      "reportedOps": 100,
+      "realOps": 109,
+      "avgLatency": 11,
+      "maxLatency": 14,
+      "writesDelta": 1100,
+      "errors": [],
+      "samples": [
+        {
+          "t": 43,
+          "ops": 100,
+          "latency": 12,
+          "writes": 600
+        },
+        {
+          "t": 545,
+          "ops": 100,
+          "latency": 12,
+          "writes": 600
+        },
+        {
+          "t": 1045,
+          "ops": 100,
+          "latency": 10,
+          "writes": 700
+        },
+        {
+          "t": 1547,
+          "ops": 100,
+          "latency": 10,
+          "writes": 700
+        },
+        {
+          "t": 2050,
+          "ops": 100,
+          "latency": 10,
+          "writes": 800
+        },
+        {
+          "t": 2552,
+          "ops": 100,
+          "latency": 10,
+          "writes": 800
+        },
+        {
+          "t": 3052,
+          "ops": 100,
+          "latency": 11,
+          "writes": 900
+        },
+        {
+          "t": 3555,
+          "ops": 100,
+          "latency": 11,
+          "writes": 900
+        },
+        {
+          "t": 4055,
+          "ops": 100,
+          "latency": 14,
+          "writes": 1000
+        },
+        {
+          "t": 4557,
+          "ops": 100,
+          "latency": 14,
+          "writes": 1000
+        },
+        {
+          "t": 5058,
+          "ops": 100,
+          "latency": 10,
+          "writes": 1100
+        },
+        {
+          "t": 5561,
+          "ops": 100,
+          "latency": 10,
+          "writes": 1100
+        },
+        {
+          "t": 6061,
+          "ops": 100,
+          "latency": 8,
+          "writes": 1200
+        },
+        {
+          "t": 6564,
+          "ops": 100,
+          "latency": 8,
+          "writes": 1200
+        },
+        {
+          "t": 7066,
+          "ops": 100,
+          "latency": 9,
+          "writes": 1300
+        },
+        {
+          "t": 7568,
+          "ops": 100,
+          "latency": 9,
+          "writes": 1300
+        },
+        {
+          "t": 8070,
+          "ops": 100,
+          "latency": 9,
+          "writes": 1400
+        },
+        {
+          "t": 8573,
+          "ops": 100,
+          "latency": 9,
+          "writes": 1400
+        },
+        {
+          "t": 9075,
+          "ops": 100,
+          "latency": 14,
+          "writes": 1500
+        },
+        {
+          "t": 9576,
+          "ops": 100,
+          "latency": 14,
+          "writes": 1500
+        }
+      ]
+    },
+    {
+      "n": 200,
+      "reportedOps": 200,
+      "realOps": 217,
+      "avgLatency": 27,
+      "maxLatency": 32,
+      "writesDelta": 2200,
+      "errors": [],
+      "samples": [
+        {
+          "t": 1,
+          "ops": 200,
+          "latency": 23,
+          "writes": 1000
+        },
+        {
+          "t": 501,
+          "ops": 200,
+          "latency": 24,
+          "writes": 1200
+        },
+        {
+          "t": 1003,
+          "ops": 200,
+          "latency": 24,
+          "writes": 1200
+        },
+        {
+          "t": 1505,
+          "ops": 200,
+          "latency": 24,
+          "writes": 1400
+        },
+        {
+          "t": 2110,
+          "ops": 200,
+          "latency": 22,
+          "writes": 1600
+        },
+        {
+          "t": 2610,
+          "ops": 200,
+          "latency": 22,
+          "writes": 1600
+        },
+        {
+          "t": 3125,
+          "ops": 200,
+          "latency": 28,
+          "writes": 1800
+        },
+        {
+          "t": 3626,
+          "ops": 200,
+          "latency": 28,
+          "writes": 1800
+        },
+        {
+          "t": 4132,
+          "ops": 200,
+          "latency": 29,
+          "writes": 2000
+        },
+        {
+          "t": 4634,
+          "ops": 200,
+          "latency": 29,
+          "writes": 2000
+        },
+        {
+          "t": 5137,
+          "ops": 200,
+          "latency": 28,
+          "writes": 2200
+        },
+        {
+          "t": 5638,
+          "ops": 200,
+          "latency": 28,
+          "writes": 2200
+        },
+        {
+          "t": 6141,
+          "ops": 200,
+          "latency": 26,
+          "writes": 2400
+        },
+        {
+          "t": 6643,
+          "ops": 200,
+          "latency": 26,
+          "writes": 2400
+        },
+        {
+          "t": 7145,
+          "ops": 200,
+          "latency": 32,
+          "writes": 2600
+        },
+        {
+          "t": 7647,
+          "ops": 200,
+          "latency": 32,
+          "writes": 2600
+        },
+        {
+          "t": 8147,
+          "ops": 200,
+          "latency": 28,
+          "writes": 2800
+        },
+        {
+          "t": 8650,
+          "ops": 200,
+          "latency": 28,
+          "writes": 2800
+        },
+        {
+          "t": 9152,
+          "ops": 200,
+          "latency": 27,
+          "writes": 3000
+        },
+        {
+          "t": 9655,
+          "ops": 200,
+          "latency": 27,
+          "writes": 3000
+        }
+      ]
+    },
+    {
+      "n": 400,
+      "reportedOps": 400,
+      "realOps": 387,
+      "avgLatency": 57,
+      "maxLatency": 67,
+      "writesDelta": 4000,
+      "errors": [],
+      "samples": [
+        {
+          "t": 1,
+          "ops": 400,
+          "latency": 67,
+          "writes": 2000
+        },
+        {
+          "t": 784,
+          "ops": 400,
+          "latency": 61,
+          "writes": 2400
+        },
+        {
+          "t": 1286,
+          "ops": 400,
+          "latency": 61,
+          "writes": 2400
+        },
+        {
+          "t": 1803,
+          "ops": 400,
+          "latency": 56,
+          "writes": 2800
+        },
+        {
+          "t": 2304,
+          "ops": 400,
+          "latency": 56,
+          "writes": 2800
+        },
+        {
+          "t": 2813,
+          "ops": 400,
+          "latency": 59,
+          "writes": 3200
+        },
+        {
+          "t": 3315,
+          "ops": 400,
+          "latency": 59,
+          "writes": 3200
+        },
+        {
+          "t": 3818,
+          "ops": 400,
+          "latency": 56,
+          "writes": 3600
+        },
+        {
+          "t": 4320,
+          "ops": 400,
+          "latency": 56,
+          "writes": 3600
+        },
+        {
+          "t": 4824,
+          "ops": 400,
+          "latency": 53,
+          "writes": 4000
+        },
+        {
+          "t": 5325,
+          "ops": 400,
+          "latency": 53,
+          "writes": 4000
+        },
+        {
+          "t": 5827,
+          "ops": 400,
+          "latency": 55,
+          "writes": 4400
+        },
+        {
+          "t": 6329,
+          "ops": 400,
+          "latency": 55,
+          "writes": 4400
+        },
+        {
+          "t": 6830,
+          "ops": 400,
+          "latency": 57,
+          "writes": 4800
+        },
+        {
+          "t": 7331,
+          "ops": 400,
+          "latency": 57,
+          "writes": 4800
+        },
+        {
+          "t": 7835,
+          "ops": 400,
+          "latency": 57,
+          "writes": 5200
+        },
+        {
+          "t": 8337,
+          "ops": 400,
+          "latency": 57,
+          "writes": 5200
+        },
+        {
+          "t": 8838,
+          "ops": 400,
+          "latency": 55,
+          "writes": 5600
+        },
+        {
+          "t": 9339,
+          "ops": 400,
+          "latency": 55,
+          "writes": 5600
+        },
+        {
+          "t": 9844,
+          "ops": 400,
+          "latency": 55,
+          "writes": 6000
+        }
+      ]
+    },
+    {
+      "n": 800,
+      "reportedOps": 800,
+      "realOps": 540,
+      "avgLatency": 121,
+      "maxLatency": 150,
+      "writesDelta": 6400,
+      "errors": [],
+      "samples": [
+        {
+          "t": 1424,
+          "ops": 800,
+          "latency": 150,
+          "writes": 1600
+        },
+        {
+          "t": 2881,
+          "ops": 800,
+          "latency": 114,
+          "writes": 2400
+        },
+        {
+          "t": 4289,
+          "ops": 800,
+          "latency": 117,
+          "writes": 3200
+        },
+        {
+          "t": 5741,
+          "ops": 800,
+          "latency": 115,
+          "writes": 4000
+        },
+        {
+          "t": 7227,
+          "ops": 800,
+          "latency": 112,
+          "writes": 4800
+        },
+        {
+          "t": 8749,
+          "ops": 800,
+          "latency": 119,
+          "writes": 5600
+        },
+        {
+          "t": 10298,
+          "ops": 800,
+          "latency": 122,
+          "writes": 6400
+        }
+      ]
+    },
+    {
+      "n": 1600,
+      "reportedOps": 1600,
+      "realOps": 228,
+      "avgLatency": 509,
+      "maxLatency": 605,
+      "writesDelta": 4800,
+      "errors": [],
+      "samples": [
+        {
+          "t": 6811,
+          "ops": 1600,
+          "latency": 605,
+          "writes": 3200
+        },
+        {
+          "t": 13815,
+          "ops": 1600,
+          "latency": 413,
+          "writes": 4800
+        }
+      ]
+    }
+  ]
+}
