@@ -1,8 +1,11 @@
 {
 	"$bog_klik_app_title": "klik",
 	"$bog_klik_bench_Count_field_hint": "Количество ботов",
-	"$bog_klik_bench_Per_field_hint": "Кликов за тик",
-	"$bog_klik_bench_Tick_field_hint": "Мс на тик",
+	"$bog_klik_bench_Count_label_title": "Количество ботов",
+	"$bog_klik_bench_Per_field_hint": "Сколько +1 к Score за тик",
+	"$bog_klik_bench_Per_label_title": "Записей за тик на бота",
+	"$bog_klik_bench_Tick_field_hint": "Мс между записями",
+	"$bog_klik_bench_Tick_label_title": "Интервал тика, мс",
 	"$bog_klik_bench_title": "Нагрузка",
 	"$bog_klik_board_title": "Лидерборд",
 	"$bog_klik_play_Intro_text": "# klik\n\nНет активной сессии. Создай новую или открой по ссылке `?land=...`.",
